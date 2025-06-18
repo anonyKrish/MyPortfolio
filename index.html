@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish portfolio</title>
+    <link rel="stylesheet" href="styles.css" >
+    <script src="https://kit.fontawesome.com/d6e2dbb6c3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+            <li> <a href="#header">Home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#portfolio">portfolio</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+            <li> <a href="#services">Service</a> </li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+        
+
+          <div class="header-text"> 
+             <h1>Hi, I'm <span>Krishan</span> </br>From India</h1>
+            <p> Front-End Developer</p>
+           
+          </div>
+        </div>
+    </div>
+<!----------about-------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/user1.png">
+          </div>
+          
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Hy Im a Full stack Developer with the 1 year experiance of HTML and CSS.At Learning Phase.<br>Doing Some Projects, as per my knowledge.</p>
+           <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Desining Web Interfaces.</li>
+              <li><span>Web Development</span><br>Web App Development.</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2025-current</span><br>Developing Projects for my personal Clients</li>
+              <li><span>2021-2024</span><br>Learned HTML and CSS</li>
+              
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2024-current</span><br>MCA from Tripura University.</li>
+              <li><span>2021-2024</span><br>BCA from ICFAI University</li>
+            </ul>
+          </div>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+
+      <div class="container">
+        
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+         <div>
+          <i class="fa-solid fa-code fa-beat-fade" style="color: aquamarine;"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui.</p>
+          <a href="#">Click for more</a>
+         </div>
+
+         <div>
+          <i class="fa-solid fa-web-awesome fa-spin fa-spin-reverse" style="color: gold;"></i>
+          <h2>UI/UX</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui.</p>
+          <a href="#">Follow More</a>
+         </div>
+
+         <div>
+           <i class="fa-solid fa-user-secret fa-beat-fade" style="color: rgb(113, 245, 179);"></i>
+           <h2>Other services</h2>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui.</p>
+           <a href="#" >Check</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------ portfolio ------>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+          <img src="image/demowork.png" >
+          <div class="layer">
+            <h3>Demo Project 1</h3>
+            <p>Lorem, ipsum.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="image/demowork2.png" >
+          <div class="layer">
+            <h3>Demo Project 2</h3>
+            <p>Lorem, ipsum.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="image/demowork3.png">
+          <div class="layer">
+            <h3>Demo Project 3</h3>
+            <p>Lorem, ipsum.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+
+      </div>
+    </div>
+
+    <!------ contact ------>
+<footer>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>   baidyakrishan1@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>   +917085284528</p>
+            <div class="social-icons">
+              <a href="https://github.com/anonyKrish"><i class="fa-brands fa-github"></i></a>
+              <a href="www.linkedin.com/in/krishan-baidya-1009a5208"><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              
+            </div>
+            <a href="CURRICULUM VITAEkb.pdf" class="btn btn2">CV Here</a>
+          </div>
+          <div class="contact-right">
+            <form id="contact-form" name="submit-to-google-sheet" >
+              
+              <input type="text" name="Name" placeholder="Your Name"  required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <input type="text" name="Subject" placeholder="Subject" required>
+              <textarea name="Message" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright &copy; Krishan. Made by Self <i class="fa-solid fa-shield-heart"></i>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var tablinks= document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+    
+      function opentab(tabname){
+
+        for(tablink of tablinks){
+
+          tablink.classList.remove("active-link"); 
+        }
+
+        for(tabcontent of tabcontents){
+
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwHsvWzNIy5qbY03ACjLKbczvbqJv-roAZjeCgTjrNFgB1mt9uRo5b4hTgOcDzwMILZ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = "";
+        }, 5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
